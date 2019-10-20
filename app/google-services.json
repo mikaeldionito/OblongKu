@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1049865671749",
+    "firebase_url": "https://oblongku-3d6c9.firebaseio.com",
+    "project_id": "oblongku-3d6c9",
+    "storage_bucket": "oblongku-3d6c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049865671749:android:4555f9eef666945d",
+        "android_client_info": {
+          "package_name": "com.example.haruskuat.oblongku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049865671749-0i1r0h6vstcpmkbfj10abso4aej82ikn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.haruskuat.oblongku",
+            "certificate_hash": "1ee325fb56290eb200f351e7fcec8042cafc3de3"
+          }
+        },
+        {
+          "client_id": "1049865671749-11r4tqi0q2t0anfr1u8uh32q239itpp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDMkSNXGuqBydJifioLIl2lChwXvlBtz4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049865671749-11r4tqi0q2t0anfr1u8uh32q239itpp8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

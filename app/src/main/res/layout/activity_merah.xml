@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bkg"
+    tools:context=".Merah">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="OBLONG MERAH"
+        android:textColor="@color/lightGray"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/merah" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="Harga : Rp. 65.000,-"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n ID Baju           : RED1 \n Bahan       : Cotton 30s \nUkuran : S / M / L / XL \nWarna    : Merah Polos \n"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonMerah"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Beli"
+        android:textColor="@color/lightGray" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bkg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HalamanRules">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="ATURAN PEMBELIAN"
+        android:textColor="@color/lightGray"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="\n - Untuk Melihat Katalog Kaos bisa \n   membuka menu Kalatog. \n - Untuk Melihat Size Kaos bisa membuka \n   menu Size Chart. \n - Jika sudah menadapatkan Kaos yang \n   menarik dapat melihat deskripsi kaos \n   dengan menekan kaos tersebut. \n - Pastikan Ukuran Kaos dengan melihat \n   pada menu SizeChart \n - Jika sudah sesuai dengan keinginan \n   maka dapat menekan Button BELI. \n - Isikan data Diri dan ID Baju yang \n   akan dipesan beserta Ukuran Baju. \n - Jika sudah maka langsung klik tombol \n   PROSES. \n - Untuk Konfirmasi total biaya akan \n   dikonfirmasi oleh admin melalui \n   E-Mail."
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:orientation="vertical"
+    tools:context=".Transaksi">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="DATA PEMBELI"
+        android:textAlignment="center"
+        android:textColor="@color/lightGray"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No Identitas"
+        android:textColor="@color/lightGray"
+        android:inputType="number"
+        android:id="@+id/edit1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Baju"
+        android:textColor="@color/lightGray"
+        android:inputType="text"
+        android:id="@+id/edit2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lightGray"
+        android:hint="Nama"
+        android:inputType="text"
+        android:id="@+id/edit3"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No Telp/HP"
+        android:textColor="@color/lightGray"
+        android:inputType="number"
+        android:id="@+id/edit4"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lightGray"
+        android:hint="Alamat"
+        android:id="@+id/edit5"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lightGray"
+        android:hint="E-Mail"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edit6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="Ukuran Baju : "
+        android:textColor="@color/lightGray"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lightGray"
+        android:hint="S / M / L / XL"
+        android:inputType="text"
+        android:id="@+id/edit7"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Proses"
+        android:id="@+id/btn1"
+        android:onClick="Click1"/>
+
+</LinearLayout>
